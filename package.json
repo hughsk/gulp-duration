@@ -1,0 +1,30 @@
+{
+  "name": "gulp-duration",
+  "description": "Track the duration of parts of your gulp tasks",
+  "version": "0.0.0",
+  "main": "index.js",
+  "browser": "index.js",
+  "dependencies": {
+    "pretty-hrtime": "~0.2.0",
+    "chalk": "~0.4.0",
+    "through2": "~0.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hughsk/gulp-duration"
+  },
+  "bugs": {
+    "url": "https://github.com/hughsk/gulp-duration/issues"
+  },
+  "homepage": "https://github.com/hughsk/gulp-duration",
+  "keywords": [
+    "gulpplugin",
+    "duration",
+    "counter",
+    "timer"
+  ]
+}
