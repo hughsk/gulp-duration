@@ -32,7 +32,7 @@ Here's a simple example:
 var duration = require('gulp-duration')
 var uglify = require('gulp-uglify')
 var concat = require('gulp-concat')
-var gulp = reuqire('gulp')
+var gulp = require('gulp')
 
 gulp.task('interval', function() {
   setInterval(function() {
