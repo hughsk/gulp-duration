@@ -1,12 +1,12 @@
 {
   "name": "gulp-duration",
   "description": "Track the duration of parts of your gulp tasks",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "browser": "index.js",
   "dependencies": {
+    "gulp-util": "^3.0.x",
     "pretty-hrtime": "~0.2.0",
-    "chalk": "~0.4.0",
     "through2": "~0.4.1"
   },
   "devDependencies": {},
