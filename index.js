@@ -6,7 +6,7 @@ module.exports = duration
 
 var prefix = '[' + chalk.green('gulp') + '] '
 
-function duration(name) {
+function duration(name, callback) {
   var start  = process.hrtime()
   var stream = through.obj({
     objectMode: true
@@ -21,6 +21,9 @@ function duration(name) {
     var time = pretty(process.hrtime(start))
 
     log(name + chalk.magenta(time))
+    
+    if(typeof(callback) === 'function')
+      callback({'name' : name, 'duration' : time});
   })
 
   function resetStart() {
