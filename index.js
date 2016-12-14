@@ -20,7 +20,7 @@ function duration(name, logfn) {
   return stream.once('end', function() {
     var time = pretty(process.hrtime(start))
 
-    log(logfn,name + chalk.magenta(time))
+    log(logfn, name + chalk.magenta(time))
   })
 
   function resetStart() {
